@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="toolbar">
+        <div class="filter-container">
+            <div class="filter-colors__container">
+                <div class="lightpink filter-color"></div>
+            </div>
+            <div class="filter-colors__container ">
+                <div class="lightblue filter-color"></div>
+            </div>
+            <div class="filter-colors__container">
+                <div class="lightgreen filter-color"></div>
+            </div>
+            <div class="filter-colors__container ">
+                <div class="black filter-color"></div>
+            </div>
+        </div>
+        <div class="action-container">
+            <div class="add action-container__icons">
+                <i class="fas fa-plus"></i>
+            </div>
+            <div class="remove action-container__icons">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+        <!-- fa-unlock-alt -->
+        <!-- fa-lock -->
+        <i class="fa fa-lock lock" aria-hidden="true"></i>
+        <!-- <i class="fa fa-unlock-alt lock" aria-hidden="true"></i> -->
+    </div>
+    <div class="main-container">
+        <div class="modal_container">
+            <div class="modal_task_container">
+                <textarea name="" id="" cols="30" rows="10" class="desc-box" placeholder="Enter your task"></textarea>
+            </div>
+            <div class="modal_filter-container">
+                <div class="modal_filters lightpink "></div>
+                <div class="modal_filters lightblue"></div>
+                <div class="modal_filters lightgreen"></div>
+                <div class="modal_filters black border"></div>
+            </div>
+        </div>
+        <!-- <div class="ticket-container">
+            <div class="ticket-color"></div>
+            <div class="ticket_sub-container">
+                <h3 class="ticket-id">#sampleId</h3>
+                <p class="ticket-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, aspernatur.</p>
+            </div>
+        </div> -->
+    </div>
+    <script src="https://unpkg.com/shortid-dist@1.0.5/dist/shortid-2.2.13.min.js"></script>
+    <!-- Usage -->
+
+    <script defer src="script.js"></script>
+    <script defer src="filter.js"></script>
+    <script defer src="edit.js"></script>
+</body>
+
+</html>
